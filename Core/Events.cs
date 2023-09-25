@@ -8,4 +8,6 @@ public record Event
 
 public record AddedCart(string UserId): Event;
 public record AddedItemToCart(int ProductId, int Quantity): Event;
+
+public record RemovedItemFromCart(int ProductId, int Quantity) : Event;
 public record AddedShippingInformationCart(string Address, string PhoneNumber): Event;
