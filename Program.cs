@@ -1,7 +1,5 @@
 ﻿using EventSourcingImplementation.Core;
 using Newtonsoft.Json;
-using System;
-using System.Text.Json.Serialization;
 
 class Program
 {
